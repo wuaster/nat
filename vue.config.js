@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   transpileDependencies: ["vuetify"],
   assetsDir: "../static",
-  publicPath: "app/templates",
+  publicPath: "/templates/",
   outputDir: path.resolve(__dirname, "app/templates/"),
   runtimeCompiler: undefined,
   productionSourceMap: undefined,
